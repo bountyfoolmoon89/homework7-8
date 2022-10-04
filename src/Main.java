@@ -6,6 +6,7 @@ public class Main {
         task2();
         System.out.println(" Task 3");
         task3();
+        test3();
         System.out.println(" Task 4");
         task4();
         System.out.println(" Task 5");
@@ -37,6 +38,17 @@ public class Main {
     public static void task3() {
         int i;
         for (i = 0; i < 17; i += 2) {
+            System.out.println(i);
+        }
+    }
+
+    public static void test3() {
+        int i = 1;
+        while (i<17){
+            i++;
+            if (i%2!=0){
+                continue;
+            }
             System.out.println(i);
         }
     }
